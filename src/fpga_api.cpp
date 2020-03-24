@@ -8,11 +8,11 @@ FPGA::FPGA(off_t data_addr, off_t output_addr, int m_size, int v_size)
 {
 	m_size_ = m_size;
 	v_size_ = v_size;
-        data_size_ = m_size_*(v_size_+1); // fpga bram data size
+    data_size_ = m_size_*(v_size_+1); // fpga bram data size
 	num_block_call_ = 0;
 
 	output_ = new unsigned int[m_size_];    // use output_ as tempolar output
-        data_ = new float[data_size_];	
+    data_ = new float[data_size_];	
 }
 
 FPGA::~FPGA()
@@ -85,10 +85,22 @@ void FPGA::largeMV(const float* large_mat, const float* input, float* output, in
 
 			// !) Assign a vector
 			/* IMPLEMENT */
-
+			memcpy(vec, input + j, block_col);
 			// 2) Assign a matrix
 			/* IMPLEMENT */
-
+			int k=0;
+			for(; k< block_row ; k++)
+			{
+				memcpy(mat+ v_size_* k, large_mat + num_input * k, block_col);
+				if(block_col < v_size_) memset(mat+ v_size_ * k + block_col, 0, v_size_ - block_col);
+			}
+			if(k < m_size_)
+			{
+				for(int x = 0; x < m_size_ - k ; x++)
+				{
+					memset(mat+ v_size_ * ( k + x ), 0, v_size_);
+				}
+			}
 			// 3) Call a function `block_call() to execute MV multiplication
 			const float* ret = this->blockMV();
 
