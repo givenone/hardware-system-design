@@ -92,7 +92,7 @@ void FPGA::largeMV(const float* large_mat, const float* input, float* output, in
 			int k=0;
 			for(; k< block_row ; k++)
 			{
-				memcpy(mat+ v_size_* k, large_mat + num_input * k, sizeof(float) * block_col);
+				memcpy(mat+ v_size_* k, large_mat + (i+k) * num_input + j, sizeof(float) * block_col);
 				if(block_col < v_size_) memset(mat+ v_size_ * k + block_col, 0, sizeof(float) * (v_size_ - block_col));
 			}
 			if(k < m_size_)
