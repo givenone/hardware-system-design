@@ -21,33 +21,108 @@
 # Registers:
 
 # File marks:
-'0  1  0  ~/src/fpga_api.cpp
-'1  49  12  ~/eval.py
-'2  1  0  ~/eval.py
-'3  1  0  ~/.viminfo
+'0  19  10  ~/eval.py
+'1  1  0  ~/eval.py
+'2  34  0  ~/Makefile
+'3  11  17  ~/src/fpga_api.cpp
+'4  18  9  ~/eval.py
+'5  1  0  ~/src/fpga_api.cpp
+'6  49  12  ~/eval.py
+'7  1  0  ~/.viminfo
 
 # Jumplist (newest first):
+-'  19  10  ~/eval.py
+-'  1  0  ~/eval.py
+-'  34  0  ~/Makefile
+-'  1  0  ~/Makefile
+-'  11  17  ~/src/fpga_api.cpp
 -'  1  0  ~/src/fpga_api.cpp
+-'  18  9  ~/eval.py
 -'  49  12  ~/eval.py
--'  1  0  ~/eval.py
 -'  1  0  ~/.viminfo
 -'  1  0  ~/.viminfo
 -'  1  0  ~/.viminfo
 -'  1  0  ~/.viminfo
--'  49  12  ~/eval.py
--'  1  0  ~/eval.py
 -'  1  0  ~/.viminfo
 -'  1  0  ~/.viminfo
 -'  1  0  ~/.viminfo
 -'  1  0  ~/.viminfo
--'  49  12  ~/eval.py
--'  1  0  ~/eval.py
 -'  1  0  ~/.viminfo
 -'  1  0  ~/.viminfo
 -'  1  0  ~/.viminfo
 -'  1  0  ~/.viminfo
--'  49  12  ~/eval.py
--'  1  0  ~/eval.py
+-'  1  0  ~/.viminfo
+-'  1  0  ~/.viminfo
+-'  1  0  ~/.viminfo
+-'  1  0  ~/.viminfo
+-'  1  0  ~/.viminfo
+-'  1  0  ~/.viminfo
+-'  1  0  ~/.viminfo
+-'  1  0  ~/.viminfo
+-'  1  0  ~/.viminfo
+-'  1  0  ~/.viminfo
+-'  1  0  ~/.viminfo
+-'  1  0  ~/.viminfo
+-'  1  0  ~/.viminfo
+-'  1  0  ~/.viminfo
+-'  1  0  ~/.viminfo
+-'  1  0  ~/.viminfo
+-'  1  0  ~/.viminfo
+-'  1  0  ~/.viminfo
+-'  1  0  ~/.viminfo
+-'  1  0  ~/.viminfo
+-'  1  0  ~/.viminfo
+-'  1  0  ~/.viminfo
+-'  1  0  ~/.viminfo
+-'  1  0  ~/.viminfo
+-'  1  0  ~/.viminfo
+-'  1  0  ~/.viminfo
+-'  1  0  ~/.viminfo
+-'  1  0  ~/.viminfo
+-'  1  0  ~/.viminfo
+-'  1  0  ~/.viminfo
+-'  1  0  ~/.viminfo
+-'  1  0  ~/.viminfo
+-'  1  0  ~/.viminfo
+-'  1  0  ~/.viminfo
+-'  1  0  ~/.viminfo
+-'  1  0  ~/.viminfo
+-'  1  0  ~/.viminfo
+-'  1  0  ~/.viminfo
+-'  1  0  ~/.viminfo
+-'  1  0  ~/.viminfo
+-'  1  0  ~/.viminfo
+-'  1  0  ~/.viminfo
+-'  1  0  ~/.viminfo
+-'  1  0  ~/.viminfo
+-'  1  0  ~/.viminfo
+-'  1  0  ~/.viminfo
+-'  1  0  ~/.viminfo
+-'  1  0  ~/.viminfo
+-'  1  0  ~/.viminfo
+-'  1  0  ~/.viminfo
+-'  1  0  ~/.viminfo
+-'  1  0  ~/.viminfo
+-'  1  0  ~/.viminfo
+-'  1  0  ~/.viminfo
+-'  1  0  ~/.viminfo
+-'  1  0  ~/.viminfo
+-'  1  0  ~/.viminfo
+-'  1  0  ~/.viminfo
+-'  1  0  ~/.viminfo
+-'  1  0  ~/.viminfo
+-'  1  0  ~/.viminfo
+-'  1  0  ~/.viminfo
+-'  1  0  ~/.viminfo
+-'  1  0  ~/.viminfo
+-'  1  0  ~/.viminfo
+-'  1  0  ~/.viminfo
+-'  1  0  ~/.viminfo
+-'  1  0  ~/.viminfo
+-'  1  0  ~/.viminfo
+-'  1  0  ~/.viminfo
+-'  1  0  ~/.viminfo
+-'  1  0  ~/.viminfo
 -'  1  0  ~/.viminfo
 -'  1  0  ~/.viminfo
 -'  1  0  ~/.viminfo
@@ -55,11 +130,25 @@
 
 # History of marks within files (newest to oldest):
 
-> ~/src/fpga_api.cpp
-	"	1	0
-
 > ~/eval.py
-	"	49	12
+	"	19	10
+	^	19	11
+	.	19	10
+	+	18	10
+	+	19	10
+	+	18	10
+	+	19	9
+	+	18	9
+	+	19	10
+
+> ~/Makefile
+	"	34	0
+
+> ~/src/fpga_api.cpp
+	"	11	17
+	^	11	18
+	.	11	17
+	+	11	17
 
 > ~/.viminfo
 	"	1	0

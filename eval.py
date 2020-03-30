@@ -15,8 +15,8 @@ NUM_TEST_IMAGES = 10000 # full test
 # matrix M: M_SIZE by V_SIZE
 # vector V: V_SIZE
 # output = M * V
-M_SIZE = 64
-V_SIZE = 64
+M_SIZE = 8
+V_SIZE = 16
 
 class MLP(object):
   def __init__(self, net_path, m_size, v_size):
